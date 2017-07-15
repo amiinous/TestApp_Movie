@@ -7,13 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36C2115E0D1F0DBE9B0A9C4D /* Pods_GoMoviez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13BFEA70A95E2D8A1D05F66 /* Pods_GoMoviez.framework */; };
+		8673A5E81F1A4BD000E7D2D3 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5E21F1A4BD000E7D2D3 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		8673A5E91F1A4BD000E7D2D3 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5E31F1A4BD000E7D2D3 /* NVActivityIndicatorPresenter.swift */; };
+		8673A5EA1F1A4BD000E7D2D3 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5E41F1A4BD000E7D2D3 /* NVActivityIndicatorShape.swift */; };
+		8673A5EB1F1A4BD000E7D2D3 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5E61F1A4BD000E7D2D3 /* NVActivityIndicatorView.swift */; };
+		8673A5EC1F1A4BD000E7D2D3 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5E71F1A4BD000E7D2D3 /* NVActivityIndicatorViewable.swift */; };
+		8673A60F1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5EF1F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		8673A6101F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F01F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		8673A6111F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F11F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		8673A6121F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F21F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		8673A6131F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F31F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		8673A6141F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F41F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		8673A6151F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F51F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		8673A6161F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F61F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		8673A6171F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F71F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		8673A6181F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F81F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		8673A6191F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5F91F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		8673A61A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5FA1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		8673A61B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5FB1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		8673A61C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5FC1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		8673A61D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5FD1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		8673A61E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5FE1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		8673A61F1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A5FF1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		8673A6201F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6001F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		8673A6211F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6011F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		8673A6221F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6021F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		8673A6231F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6031F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBlank.swift */; };
+		8673A6241F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6041F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		8673A6251F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6051F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScale.swift */; };
+		8673A6261F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6061F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		8673A6271F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6071F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		8673A6281F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6081F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		8673A6291F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A6091F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		8673A62A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A60A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		8673A62B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A60B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationPacman.swift */; };
+		8673A62C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A60C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		8673A62D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A60D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		8673A62E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8673A60E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		8680FC641F1502C200695DB5 /* moviePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FC621F1502C200695DB5 /* moviePageVC.swift */; };
+		8680FC651F1502C200695DB5 /* moviePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8680FC631F1502C200695DB5 /* moviePageVC.xib */; };
+		8680FC671F15083A00695DB5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8680FC661F15083A00695DB5 /* Podfile */; };
+		8680FC691F150F5700695DB5 /* mainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FC681F150F5700695DB5 /* mainTabVC.swift */; };
+		8680FC6C1F1529F500695DB5 /* fake1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FC6B1F1529F500695DB5 /* fake1VC.swift */; };
+		8680FC6E1F152A0C00695DB5 /* fake2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FC6D1F152A0C00695DB5 /* fake2VC.swift */; };
+		8680FC701F174E6600695DB5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FC6F1F174E6600695DB5 /* Models.swift */; };
+		8680FC721F17502B00695DB5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8680FC711F17502B00695DB5 /* APIService.swift */; };
 		86C2AAB11F134A6D0015969C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2AAB01F134A6D0015969C /* AppDelegate.swift */; };
-		86C2AAB31F134A6D0015969C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2AAB21F134A6D0015969C /* ViewController.swift */; };
 		86C2AAB61F134A6D0015969C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C2AAB41F134A6D0015969C /* Main.storyboard */; };
 		86C2AAB81F134A6D0015969C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C2AAB71F134A6D0015969C /* Assets.xcassets */; };
 		86C2AABB1F134A6D0015969C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C2AAB91F134A6D0015969C /* LaunchScreen.storyboard */; };
 		86C2AAC61F134A6D0015969C /* GoMoviezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2AAC51F134A6D0015969C /* GoMoviezTests.swift */; };
 		86C2AAD11F134A6D0015969C /* GoMoviezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2AAD01F134A6D0015969C /* GoMoviezUITests.swift */; };
+		86C2AADF1F134FA60015969C /* mainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2AADE1F134FA60015969C /* mainPageVC.swift */; };
+		86C2AAE21F1352130015969C /* MoviezCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2AAE01F1352130015969C /* MoviezCollectionViewCell.swift */; };
+		86C2AAE31F1352130015969C /* MoviezCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C2AAE11F1352130015969C /* MoviezCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +82,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8673A5E21F1A4BD000E7D2D3 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = GoMoviez/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		8673A5E31F1A4BD000E7D2D3 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = GoMoviez/NVActivityIndicatorView/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		8673A5E41F1A4BD000E7D2D3 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = GoMoviez/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		8673A5E51F1A4BD000E7D2D3 /* NVActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVActivityIndicatorView.h; path = GoMoviez/NVActivityIndicatorView/NVActivityIndicatorView.h; sourceTree = "<group>"; };
+		8673A5E61F1A4BD000E7D2D3 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = GoMoviez/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8673A5E71F1A4BD000E7D2D3 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = GoMoviez/NVActivityIndicatorView/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		8673A5EF1F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		8673A5F01F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		8673A5F11F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		8673A5F21F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		8673A5F31F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		8673A5F41F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		8673A5F51F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		8673A5F61F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		8673A5F71F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		8673A5F81F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		8673A5F91F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		8673A5FA1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		8673A5FB1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		8673A5FC1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		8673A5FD1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		8673A5FE1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		8673A5FF1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		8673A6001F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		8673A6011F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		8673A6021F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		8673A6031F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		8673A6041F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		8673A6051F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		8673A6061F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		8673A6071F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		8673A6081F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		8673A6091F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		8673A60A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		8673A60B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		8673A60C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		8673A60D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		8673A60E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = GoMoviez/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		8680FC621F1502C200695DB5 /* moviePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moviePageVC.swift; sourceTree = "<group>"; };
+		8680FC631F1502C200695DB5 /* moviePageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moviePageVC.xib; sourceTree = "<group>"; };
+		8680FC661F15083A00695DB5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8680FC681F150F5700695DB5 /* mainTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTabVC.swift; sourceTree = "<group>"; };
+		8680FC6B1F1529F500695DB5 /* fake1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fake1VC.swift; sourceTree = "<group>"; };
+		8680FC6D1F152A0C00695DB5 /* fake2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fake2VC.swift; sourceTree = "<group>"; };
+		8680FC6F1F174E6600695DB5 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = GoMoviez/Models.swift; sourceTree = "<group>"; };
+		8680FC711F17502B00695DB5 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = GoMoviez/APIService.swift; sourceTree = "<group>"; };
 		86C2AAAD1F134A6D0015969C /* GoMoviez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMoviez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C2AAB01F134A6D0015969C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86C2AAB21F134A6D0015969C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86C2AAB51F134A6D0015969C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86C2AAB71F134A6D0015969C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86C2AABA1F134A6D0015969C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +140,12 @@
 		86C2AACC1F134A6D0015969C /* GoMoviezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMoviezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C2AAD01F134A6D0015969C /* GoMoviezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMoviezUITests.swift; sourceTree = "<group>"; };
 		86C2AAD21F134A6D0015969C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C2AADE1F134FA60015969C /* mainPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPageVC.swift; sourceTree = "<group>"; };
+		86C2AAE01F1352130015969C /* MoviezCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviezCollectionViewCell.swift; sourceTree = "<group>"; };
+		86C2AAE11F1352130015969C /* MoviezCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviezCollectionViewCell.xib; sourceTree = "<group>"; };
+		8EB5B2619A91D9AF57C0049C /* Pods-GoMoviez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoMoviez.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoMoviez/Pods-GoMoviez.release.xcconfig"; sourceTree = "<group>"; };
+		E13BFEA70A95E2D8A1D05F66 /* Pods_GoMoviez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoMoviez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC551F1222B3C2FB1E1F57E6 /* Pods-GoMoviez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoMoviez.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoMoviez/Pods-GoMoviez.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C2115E0D1F0DBE9B0A9C4D /* Pods_GoMoviez.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +174,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47BF547B7FCF30E42682D5E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC551F1222B3C2FB1E1F57E6 /* Pods-GoMoviez.debug.xcconfig */,
+				8EB5B2619A91D9AF57C0049C /* Pods-GoMoviez.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60E5E23F7F8A6AFD86878739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E13BFEA70A95E2D8A1D05F66 /* Pods_GoMoviez.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8673A5ED1F1A4BDD00E7D2D3 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				8673A5EE1F1A4BEE00E7D2D3 /* Animations */,
+				8673A5E21F1A4BD000E7D2D3 /* NVActivityIndicatorAnimationDelegate.swift */,
+				8673A5E31F1A4BD000E7D2D3 /* NVActivityIndicatorPresenter.swift */,
+				8673A5E41F1A4BD000E7D2D3 /* NVActivityIndicatorShape.swift */,
+				8673A5E51F1A4BD000E7D2D3 /* NVActivityIndicatorView.h */,
+				8673A5E61F1A4BD000E7D2D3 /* NVActivityIndicatorView.swift */,
+				8673A5E71F1A4BD000E7D2D3 /* NVActivityIndicatorViewable.swift */,
+			);
+			name = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		8673A5EE1F1A4BEE00E7D2D3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8673A5EF1F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				8673A5F01F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				8673A5F11F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				8673A5F21F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				8673A5F31F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				8673A5F41F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				8673A5F51F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				8673A5F61F1A4BFF00E7D2D3 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				8673A5F71F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				8673A5F81F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				8673A5F91F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				8673A5FA1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				8673A5FB1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScale.swift */,
+				8673A5FC1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				8673A5FD1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				8673A5FE1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				8673A5FF1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				8673A6001F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				8673A6011F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				8673A6021F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				8673A6031F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBlank.swift */,
+				8673A6041F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				8673A6051F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScale.swift */,
+				8673A6061F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				8673A6071F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				8673A6081F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				8673A6091F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				8673A60A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationOrbit.swift */,
+				8673A60B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationPacman.swift */,
+				8673A60C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				8673A60D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				8673A60E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		8680FC6A1F1529CE00695DB5 /* fakeVCs */ = {
+			isa = PBXGroup;
+			children = (
+				8680FC6B1F1529F500695DB5 /* fake1VC.swift */,
+				8680FC6D1F152A0C00695DB5 /* fake2VC.swift */,
+			);
+			name = fakeVCs;
+			sourceTree = "<group>";
+		};
+		8680FC731F18A24100695DB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8680FC6F1F174E6600695DB5 /* Models.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8680FC741F18A24F00695DB5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8680FC711F17502B00695DB5 /* APIService.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		86C2AAA41F134A6D0015969C = {
 			isa = PBXGroup;
 			children = (
+				8673A5ED1F1A4BDD00E7D2D3 /* ActivityIndicator */,
+				8680FC741F18A24F00695DB5 /* API */,
+				8680FC731F18A24100695DB5 /* Models */,
+				8680FC6A1F1529CE00695DB5 /* fakeVCs */,
 				86C2AAAF1F134A6D0015969C /* GoMoviez */,
 				86C2AAC41F134A6D0015969C /* GoMoviezTests */,
 				86C2AACF1F134A6D0015969C /* GoMoviezUITests */,
 				86C2AAAE1F134A6D0015969C /* Products */,
+				47BF547B7FCF30E42682D5E7 /* Pods */,
+				60E5E23F7F8A6AFD86878739 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +298,15 @@
 		86C2AAAF1F134A6D0015969C /* GoMoviez */ = {
 			isa = PBXGroup;
 			children = (
+				8680FC661F15083A00695DB5 /* Podfile */,
 				86C2AAB01F134A6D0015969C /* AppDelegate.swift */,
-				86C2AAB21F134A6D0015969C /* ViewController.swift */,
+				86C2AADE1F134FA60015969C /* mainPageVC.swift */,
+				86C2AAE01F1352130015969C /* MoviezCollectionViewCell.swift */,
+				86C2AAE11F1352130015969C /* MoviezCollectionViewCell.xib */,
 				86C2AAB41F134A6D0015969C /* Main.storyboard */,
+				8680FC681F150F5700695DB5 /* mainTabVC.swift */,
+				8680FC621F1502C200695DB5 /* moviePageVC.swift */,
+				8680FC631F1502C200695DB5 /* moviePageVC.xib */,
 				86C2AAB71F134A6D0015969C /* Assets.xcassets */,
 				86C2AAB91F134A6D0015969C /* LaunchScreen.storyboard */,
 				86C2AABC1F134A6D0015969C /* Info.plist */,
@@ -132,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86C2AAD51F134A6D0015969C /* Build configuration list for PBXNativeTarget "GoMoviez" */;
 			buildPhases = (
+				F0F232A734C6107D8DDFF1AB /* [CP] Check Pods Manifest.lock */,
 				86C2AAA91F134A6D0015969C /* Sources */,
 				86C2AAAA1F134A6D0015969C /* Frameworks */,
 				86C2AAAB1F134A6D0015969C /* Resources */,
+				C0CE7A2F86D7A0846785E31A /* [CP] Embed Pods Frameworks */,
+				37FC2696572EC091E7EEA796 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +442,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8680FC671F15083A00695DB5 /* Podfile in Resources */,
 				86C2AABB1F134A6D0015969C /* LaunchScreen.storyboard in Resources */,
 				86C2AAB81F134A6D0015969C /* Assets.xcassets in Resources */,
+				8680FC651F1502C200695DB5 /* moviePageVC.xib in Resources */,
+				86C2AAE31F1352130015969C /* MoviezCollectionViewCell.xib in Resources */,
 				86C2AAB61F134A6D0015969C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +467,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37FC2696572EC091E7EEA796 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoMoviez/Pods-GoMoviez-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CE7A2F86D7A0846785E31A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoMoviez/Pods-GoMoviez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F232A734C6107D8DDFF1AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86C2AAA91F134A6D0015969C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C2AAB31F134A6D0015969C /* ViewController.swift in Sources */,
+				8673A61A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				8673A5EA1F1A4BD000E7D2D3 /* NVActivityIndicatorShape.swift in Sources */,
+				8673A6231F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				86C2AADF1F134FA60015969C /* mainPageVC.swift in Sources */,
+				86C2AAE21F1352130015969C /* MoviezCollectionViewCell.swift in Sources */,
+				8673A5E81F1A4BD000E7D2D3 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				8680FC691F150F5700695DB5 /* mainTabVC.swift in Sources */,
+				8673A61B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				8680FC701F174E6600695DB5 /* Models.swift in Sources */,
+				8673A6151F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				8673A62A1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				8673A62C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				8673A6281F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				8673A61D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				8673A62B1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				8673A6241F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				8673A6131F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				8680FC641F1502C200695DB5 /* moviePageVC.swift in Sources */,
 				86C2AAB11F134A6D0015969C /* AppDelegate.swift in Sources */,
+				8680FC6C1F1529F500695DB5 /* fake1VC.swift in Sources */,
+				8673A6121F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				8673A6161F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				8673A6221F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				8673A5E91F1A4BD000E7D2D3 /* NVActivityIndicatorPresenter.swift in Sources */,
+				8673A62D1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				8673A6251F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				8673A6141F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				8673A6101F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				8680FC721F17502B00695DB5 /* APIService.swift in Sources */,
+				8673A61C1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				8673A6181F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				8673A6271F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				8673A6111F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				8673A6261F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				8673A60F1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				8673A6211F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				8673A6191F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				8673A6201F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				8673A5EC1F1A4BD000E7D2D3 /* NVActivityIndicatorViewable.swift in Sources */,
+				8673A62E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				8673A6291F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				8680FC6E1F152A0C00695DB5 /* fake2VC.swift in Sources */,
+				8673A5EB1F1A4BD000E7D2D3 /* NVActivityIndicatorView.swift in Sources */,
+				8673A6171F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				8673A61F1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				8673A61E1F1A4C0000E7D2D3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +715,7 @@
 		};
 		86C2AAD61F134A6D0015969C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC551F1222B3C2FB1E1F57E6 /* Pods-GoMoviez.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoMoviez/Info.plist;
@@ -422,6 +728,7 @@
 		};
 		86C2AAD71F134A6D0015969C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB5B2619A91D9AF57C0049C /* Pods-GoMoviez.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoMoviez/Info.plist;
@@ -505,6 +812,7 @@
 				86C2AAD71F134A6D0015969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C2AAD81F134A6D0015969C /* Build configuration list for PBXNativeTarget "GoMoviezTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +821,7 @@
 				86C2AADA1F134A6D0015969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C2AADB1F134A6D0015969C /* Build configuration list for PBXNativeTarget "GoMoviezUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +830,7 @@
 				86C2AADD1F134A6D0015969C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

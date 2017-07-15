@@ -1,26 +1,144 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="024-f5-JeH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Main TabVC-->
+        <scene sceneID="MwX-yj-d8N">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lNo-Z5-IP6" customClass="mainTabVC" customModule="GoMoviez" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cfF-D5-Qrj"/>
+                        <viewControllerLayoutGuide type="bottom" id="fy3-mj-s5s"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="wZ9-Mo-MEf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Qo-J7-TuE">
+                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                            </scrollView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bBm-kD-Ejx" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BkZ-VS-M52"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rJ0-HP-abO">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bBm-kD-Ejx" secondAttribute="trailing" id="1jb-9p-Ke0"/>
+                            <constraint firstItem="bBm-kD-Ejx" firstAttribute="leading" secondItem="wZ9-Mo-MEf" secondAttribute="leading" id="H4E-aM-6pK"/>
+                            <constraint firstItem="7Qo-J7-TuE" firstAttribute="leading" secondItem="wZ9-Mo-MEf" secondAttribute="leading" id="KM4-l9-c0C"/>
+                            <constraint firstItem="7Qo-J7-TuE" firstAttribute="top" secondItem="bBm-kD-Ejx" secondAttribute="bottom" id="bII-5o-SEH"/>
+                            <constraint firstItem="fy3-mj-s5s" firstAttribute="top" secondItem="7Qo-J7-TuE" secondAttribute="bottom" id="bqa-nc-aRB"/>
+                            <constraint firstAttribute="trailing" secondItem="7Qo-J7-TuE" secondAttribute="trailing" id="jSf-fi-D1O"/>
+                            <constraint firstItem="bBm-kD-Ejx" firstAttribute="top" secondItem="cfF-D5-Qrj" secondAttribute="bottom" id="tt6-TX-aXU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RED-NA-8w1"/>
+                    <connections>
+                        <outlet property="buttonBarView" destination="bBm-kD-Ejx" id="Rfz-uz-Fvd"/>
+                        <outlet property="containerView" destination="7Qo-J7-TuE" id="oWD-EI-OBM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pib-NL-L6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016.8000000000002" y="-336.88155922038982"/>
+        </scene>
+        <!--Main PageVC-->
+        <scene sceneID="CIm-P5-Vwh">
+            <objects>
+                <collectionViewController storyboardIdentifier="mainPage" id="9W0-Xz-WH8" customClass="mainPageVC" customModule="GoMoviez" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" id="hGM-Wq-AOM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94066803084714401" green="0.94278795599622278" blue="0.97513772768852036" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uAO-ej-795">
+                            <size key="itemSize" width="350" height="185"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="9W0-Xz-WH8" id="1Uf-ZX-rVy"/>
+                            <outlet property="delegate" destination="9W0-Xz-WH8" id="VDK-7f-56D"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="BTT-lQ-DzL"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D6t-iG-Mof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3017" y="370"/>
+        </scene>
+        <!--Fake2VC-->
+        <scene sceneID="8Qa-H3-R4S">
+            <objects>
+                <viewController storyboardIdentifier="fake2" id="yfU-Cc-Qce" customClass="fake2VC" customModule="GoMoviez" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UPa-0A-lfN"/>
+                        <viewControllerLayoutGuide type="bottom" id="AVR-oQ-J3A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mxu-ou-v7s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cw-6x-8K0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="242" y="1135"/>
+        </scene>
+        <!--Fake1VC-->
+        <scene sceneID="aOY-US-RE6">
+            <objects>
+                <viewController storyboardIdentifier="fake1" id="lof-38-Zzm" customClass="fake1VC" customModule="GoMoviez" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r5N-Km-80E"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xv3-6z-ryG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Pg-oz-JJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRQ-VC-oJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1183" y="1126"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wJK-tM-tcE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="024-f5-JeH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hs4-cK-Cle">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lNo-Z5-IP6" kind="relationship" relationship="rootViewController" id="WNZ-fd-cUc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N84-gy-ebm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2077.5999999999999" y="-336.88155922038982"/>
         </scene>
     </scenes>
 </document>
